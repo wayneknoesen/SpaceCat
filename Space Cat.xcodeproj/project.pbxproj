@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47853FB419B9D3CE00C210DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47853FB319B9D3CE00C210DA /* Foundation.framework */; };
+		47853FB619B9D3CE00C210DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47853FB519B9D3CE00C210DA /* CoreGraphics.framework */; };
+		47853FB819B9D3CE00C210DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47853FB719B9D3CE00C210DA /* UIKit.framework */; };
+		47853FBA19B9D3CE00C210DA /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47853FB919B9D3CE00C210DA /* SpriteKit.framework */; };
+		47853FC019B9D3CE00C210DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47853FBE19B9D3CE00C210DA /* InfoPlist.strings */; };
+		47853FC219B9D3CE00C210DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FC119B9D3CE00C210DA /* main.m */; };
+		47853FC619B9D3CE00C210DA /* LAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FC519B9D3CE00C210DA /* LAAppDelegate.m */; };
+		47853FC919B9D3CE00C210DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47853FC719B9D3CE00C210DA /* Main.storyboard */; };
+		47853FCC19B9D3CE00C210DA /* LAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FCB19B9D3CE00C210DA /* LAViewController.m */; };
+		47853FCF19B9D3CE00C210DA /* LAMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FCE19B9D3CE00C210DA /* LAMyScene.m */; };
+		47853FD119B9D3CE00C210DA /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 47853FD019B9D3CE00C210DA /* Spaceship.png */; };
+		47853FD319B9D3CE00C210DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47853FD219B9D3CE00C210DA /* Images.xcassets */; };
+		47853FDA19B9D3CF00C210DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47853FD919B9D3CF00C210DA /* XCTest.framework */; };
+		47853FDB19B9D3CF00C210DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47853FB319B9D3CE00C210DA /* Foundation.framework */; };
+		47853FDC19B9D3CF00C210DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47853FB719B9D3CE00C210DA /* UIKit.framework */; };
+		47853FE419B9D3CF00C210DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47853FE219B9D3CF00C210DA /* InfoPlist.strings */; };
+		47853FE619B9D3CF00C210DA /* Space_CatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FE519B9D3CF00C210DA /* Space_CatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47853FDD19B9D3CF00C210DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47853FA819B9D3CE00C210DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47853FAF19B9D3CE00C210DA;
+			remoteInfo = "Space Cat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47853FB019B9D3CE00C210DA /* Space Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47853FB319B9D3CE00C210DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47853FB519B9D3CE00C210DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47853FB719B9D3CE00C210DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47853FB919B9D3CE00C210DA /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		47853FBD19B9D3CE00C210DA /* Space Cat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space Cat-Info.plist"; sourceTree = "<group>"; };
+		47853FBF19B9D3CE00C210DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47853FC119B9D3CE00C210DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47853FC319B9D3CE00C210DA /* Space Cat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Space Cat-Prefix.pch"; sourceTree = "<group>"; };
+		47853FC419B9D3CE00C210DA /* LAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAppDelegate.h; sourceTree = "<group>"; };
+		47853FC519B9D3CE00C210DA /* LAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAppDelegate.m; sourceTree = "<group>"; };
+		47853FC819B9D3CE00C210DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47853FCA19B9D3CE00C210DA /* LAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAViewController.h; sourceTree = "<group>"; };
+		47853FCB19B9D3CE00C210DA /* LAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAViewController.m; sourceTree = "<group>"; };
+		47853FCD19B9D3CE00C210DA /* LAMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAMyScene.h; sourceTree = "<group>"; };
+		47853FCE19B9D3CE00C210DA /* LAMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAMyScene.m; sourceTree = "<group>"; };
+		47853FD019B9D3CE00C210DA /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		47853FD219B9D3CE00C210DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47853FD819B9D3CF00C210DA /* Space CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47853FD919B9D3CF00C210DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		47853FE119B9D3CF00C210DA /* Space CatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space CatTests-Info.plist"; sourceTree = "<group>"; };
+		47853FE319B9D3CF00C210DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47853FE519B9D3CF00C210DA /* Space_CatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47853FAD19B9D3CE00C210DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47853FB619B9D3CE00C210DA /* CoreGraphics.framework in Frameworks */,
+				47853FB819B9D3CE00C210DA /* UIKit.framework in Frameworks */,
+				47853FBA19B9D3CE00C210DA /* SpriteKit.framework in Frameworks */,
+				47853FB419B9D3CE00C210DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47853FD519B9D3CF00C210DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47853FDA19B9D3CF00C210DA /* XCTest.framework in Frameworks */,
+				47853FDC19B9D3CF00C210DA /* UIKit.framework in Frameworks */,
+				47853FDB19B9D3CF00C210DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47853FA719B9D3CE00C210DA = {
+			isa = PBXGroup;
+			children = (
+				47853FBB19B9D3CE00C210DA /* Space Cat */,
+				47853FDF19B9D3CF00C210DA /* Space CatTests */,
+				47853FB219B9D3CE00C210DA /* Frameworks */,
+				47853FB119B9D3CE00C210DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47853FB119B9D3CE00C210DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47853FB019B9D3CE00C210DA /* Space Cat.app */,
+				47853FD819B9D3CF00C210DA /* Space CatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47853FB219B9D3CE00C210DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47853FB319B9D3CE00C210DA /* Foundation.framework */,
+				47853FB519B9D3CE00C210DA /* CoreGraphics.framework */,
+				47853FB719B9D3CE00C210DA /* UIKit.framework */,
+				47853FB919B9D3CE00C210DA /* SpriteKit.framework */,
+				47853FD919B9D3CF00C210DA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47853FBB19B9D3CE00C210DA /* Space Cat */ = {
+			isa = PBXGroup;
+			children = (
+				47853FC419B9D3CE00C210DA /* LAAppDelegate.h */,
+				47853FC519B9D3CE00C210DA /* LAAppDelegate.m */,
+				47853FC719B9D3CE00C210DA /* Main.storyboard */,
+				47853FCA19B9D3CE00C210DA /* LAViewController.h */,
+				47853FCB19B9D3CE00C210DA /* LAViewController.m */,
+				47853FCD19B9D3CE00C210DA /* LAMyScene.h */,
+				47853FCE19B9D3CE00C210DA /* LAMyScene.m */,
+				47853FD019B9D3CE00C210DA /* Spaceship.png */,
+				47853FD219B9D3CE00C210DA /* Images.xcassets */,
+				47853FBC19B9D3CE00C210DA /* Supporting Files */,
+			);
+			path = "Space Cat";
+			sourceTree = "<group>";
+		};
+		47853FBC19B9D3CE00C210DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47853FBD19B9D3CE00C210DA /* Space Cat-Info.plist */,
+				47853FBE19B9D3CE00C210DA /* InfoPlist.strings */,
+				47853FC119B9D3CE00C210DA /* main.m */,
+				47853FC319B9D3CE00C210DA /* Space Cat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47853FDF19B9D3CF00C210DA /* Space CatTests */ = {
+			isa = PBXGroup;
+			children = (
+				47853FE519B9D3CF00C210DA /* Space_CatTests.m */,
+				47853FE019B9D3CF00C210DA /* Supporting Files */,
+			);
+			path = "Space CatTests";
+			sourceTree = "<group>";
+		};
+		47853FE019B9D3CF00C210DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47853FE119B9D3CF00C210DA /* Space CatTests-Info.plist */,
+				47853FE219B9D3CF00C210DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47853FAF19B9D3CE00C210DA /* Space Cat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47853FE919B9D3CF00C210DA /* Build configuration list for PBXNativeTarget "Space Cat" */;
+			buildPhases = (
+				47853FAC19B9D3CE00C210DA /* Sources */,
+				47853FAD19B9D3CE00C210DA /* Frameworks */,
+				47853FAE19B9D3CE00C210DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Cat";
+			productName = "Space Cat";
+			productReference = 47853FB019B9D3CE00C210DA /* Space Cat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47853FD719B9D3CF00C210DA /* Space CatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47853FEC19B9D3CF00C210DA /* Build configuration list for PBXNativeTarget "Space CatTests" */;
+			buildPhases = (
+				47853FD419B9D3CF00C210DA /* Sources */,
+				47853FD519B9D3CF00C210DA /* Frameworks */,
+				47853FD619B9D3CF00C210DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47853FDE19B9D3CF00C210DA /* PBXTargetDependency */,
+			);
+			name = "Space CatTests";
+			productName = "Space CatTests";
+			productReference = 47853FD819B9D3CF00C210DA /* Space CatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47853FA819B9D3CE00C210DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LeetApps;
+				TargetAttributes = {
+					47853FD719B9D3CF00C210DA = {
+						TestTargetID = 47853FAF19B9D3CE00C210DA;
+					};
+				};
+			};
+			buildConfigurationList = 47853FAB19B9D3CE00C210DA /* Build configuration list for PBXProject "Space Cat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47853FA719B9D3CE00C210DA;
+			productRefGroup = 47853FB119B9D3CE00C210DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47853FAF19B9D3CE00C210DA /* Space Cat */,
+				47853FD719B9D3CF00C210DA /* Space CatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47853FAE19B9D3CE00C210DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47853FC019B9D3CE00C210DA /* InfoPlist.strings in Resources */,
+				47853FD319B9D3CE00C210DA /* Images.xcassets in Resources */,
+				47853FD119B9D3CE00C210DA /* Spaceship.png in Resources */,
+				47853FC919B9D3CE00C210DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47853FD619B9D3CF00C210DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47853FE419B9D3CF00C210DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47853FAC19B9D3CE00C210DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47853FC219B9D3CE00C210DA /* main.m in Sources */,
+				47853FC619B9D3CE00C210DA /* LAAppDelegate.m in Sources */,
+				47853FCC19B9D3CE00C210DA /* LAViewController.m in Sources */,
+				47853FCF19B9D3CE00C210DA /* LAMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47853FD419B9D3CF00C210DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47853FE619B9D3CF00C210DA /* Space_CatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47853FDE19B9D3CF00C210DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47853FAF19B9D3CE00C210DA /* Space Cat */;
+			targetProxy = 47853FDD19B9D3CF00C210DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47853FBE19B9D3CE00C210DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47853FBF19B9D3CE00C210DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47853FC719B9D3CE00C210DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47853FC819B9D3CE00C210DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47853FE219B9D3CF00C210DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47853FE319B9D3CF00C210DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47853FE719B9D3CF00C210DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47853FE819B9D3CF00C210DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47853FEA19B9D3CF00C210DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Cat/Space Cat-Prefix.pch";
+				INFOPLIST_FILE = "Space Cat/Space Cat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47853FEB19B9D3CF00C210DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Cat/Space Cat-Prefix.pch";
+				INFOPLIST_FILE = "Space Cat/Space Cat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		47853FED19B9D3CF00C210DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Cat.app/Space Cat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Cat/Space Cat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space CatTests/Space CatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		47853FEE19B9D3CF00C210DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Cat.app/Space Cat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Cat/Space Cat-Prefix.pch";
+				INFOPLIST_FILE = "Space CatTests/Space CatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47853FAB19B9D3CE00C210DA /* Build configuration list for PBXProject "Space Cat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47853FE719B9D3CF00C210DA /* Debug */,
+				47853FE819B9D3CF00C210DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47853FE919B9D3CF00C210DA /* Build configuration list for PBXNativeTarget "Space Cat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47853FEA19B9D3CF00C210DA /* Debug */,
+				47853FEB19B9D3CF00C210DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47853FEC19B9D3CF00C210DA /* Build configuration list for PBXNativeTarget "Space CatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47853FED19B9D3CF00C210DA /* Debug */,
+				47853FEE19B9D3CF00C210DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47853FA819B9D3CE00C210DA /* Project object */;
+}
