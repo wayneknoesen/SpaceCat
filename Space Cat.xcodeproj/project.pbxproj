@@ -16,14 +16,18 @@
 		47853FC619B9D3CE00C210DA /* LAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FC519B9D3CE00C210DA /* LAAppDelegate.m */; };
 		47853FC919B9D3CE00C210DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47853FC719B9D3CE00C210DA /* Main.storyboard */; };
 		47853FCC19B9D3CE00C210DA /* LAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FCB19B9D3CE00C210DA /* LAViewController.m */; };
-		47853FCF19B9D3CE00C210DA /* LAMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FCE19B9D3CE00C210DA /* LAMyScene.m */; };
-		47853FD119B9D3CE00C210DA /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 47853FD019B9D3CE00C210DA /* Spaceship.png */; };
 		47853FD319B9D3CE00C210DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47853FD219B9D3CE00C210DA /* Images.xcassets */; };
 		47853FDA19B9D3CF00C210DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47853FD919B9D3CF00C210DA /* XCTest.framework */; };
 		47853FDB19B9D3CF00C210DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47853FB319B9D3CE00C210DA /* Foundation.framework */; };
 		47853FDC19B9D3CF00C210DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47853FB719B9D3CE00C210DA /* UIKit.framework */; };
 		47853FE419B9D3CF00C210DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47853FE219B9D3CF00C210DA /* InfoPlist.strings */; };
 		47853FE619B9D3CF00C210DA /* Space_CatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FE519B9D3CF00C210DA /* Space_CatTests.m */; };
+		47853FF119BA400100C210DA /* LATitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FF019BA400100C210DA /* LATitleScene.m */; };
+		47853FF719BA422500C210DA /* LAGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 47853FF619BA422500C210DA /* LAGamePlayScene.m */; };
+		47853FF919BA454B00C210DA /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 47853FF819BA454B00C210DA /* Sprites.atlas */; };
+		47B316D819BB922D00A3A045 /* LAMachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B316D719BB922D00A3A045 /* LAMachineNode.m */; };
+		47B316DB19BB992400A3A045 /* LASpaceCatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B316DA19BB992400A3A045 /* LASpaceCatNode.m */; };
+		47B316DE19BBAD5F00A3A045 /* LAProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B316DD19BBAD5F00A3A045 /* LAProjectileNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,15 +55,23 @@
 		47853FC819B9D3CE00C210DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47853FCA19B9D3CE00C210DA /* LAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAViewController.h; sourceTree = "<group>"; };
 		47853FCB19B9D3CE00C210DA /* LAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAViewController.m; sourceTree = "<group>"; };
-		47853FCD19B9D3CE00C210DA /* LAMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAMyScene.h; sourceTree = "<group>"; };
-		47853FCE19B9D3CE00C210DA /* LAMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAMyScene.m; sourceTree = "<group>"; };
-		47853FD019B9D3CE00C210DA /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		47853FD219B9D3CE00C210DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		47853FD819B9D3CF00C210DA /* Space CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47853FD919B9D3CF00C210DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		47853FE119B9D3CF00C210DA /* Space CatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space CatTests-Info.plist"; sourceTree = "<group>"; };
 		47853FE319B9D3CF00C210DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47853FE519B9D3CF00C210DA /* Space_CatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CatTests.m; sourceTree = "<group>"; };
+		47853FEF19BA400100C210DA /* LATitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LATitleScene.h; path = ../LATitleScene.h; sourceTree = "<group>"; };
+		47853FF019BA400100C210DA /* LATitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LATitleScene.m; path = ../LATitleScene.m; sourceTree = "<group>"; };
+		47853FF519BA422500C210DA /* LAGamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAGamePlayScene.h; sourceTree = "<group>"; };
+		47853FF619BA422500C210DA /* LAGamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAGamePlayScene.m; sourceTree = "<group>"; };
+		47853FF819BA454B00C210DA /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		47B316D619BB922D00A3A045 /* LAMachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAMachineNode.h; sourceTree = "<group>"; };
+		47B316D719BB922D00A3A045 /* LAMachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAMachineNode.m; sourceTree = "<group>"; };
+		47B316D919BB992400A3A045 /* LASpaceCatNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LASpaceCatNode.h; sourceTree = "<group>"; };
+		47B316DA19BB992400A3A045 /* LASpaceCatNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LASpaceCatNode.m; sourceTree = "<group>"; };
+		47B316DC19BBAD5F00A3A045 /* LAProjectileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAProjectileNode.h; sourceTree = "<group>"; };
+		47B316DD19BBAD5F00A3A045 /* LAProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAProjectileNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,15 +133,11 @@
 		47853FBB19B9D3CE00C210DA /* Space Cat */ = {
 			isa = PBXGroup;
 			children = (
-				47853FC419B9D3CE00C210DA /* LAAppDelegate.h */,
-				47853FC519B9D3CE00C210DA /* LAAppDelegate.m */,
-				47853FC719B9D3CE00C210DA /* Main.storyboard */,
-				47853FCA19B9D3CE00C210DA /* LAViewController.h */,
-				47853FCB19B9D3CE00C210DA /* LAViewController.m */,
-				47853FCD19B9D3CE00C210DA /* LAMyScene.h */,
-				47853FCE19B9D3CE00C210DA /* LAMyScene.m */,
-				47853FD019B9D3CE00C210DA /* Spaceship.png */,
+				47B316D519BB91FF00A3A045 /* Nodes */,
+				47853FFA19BA456700C210DA /* ViewController */,
+				47853FF219BA40A200C210DA /* Scenes */,
 				47853FD219B9D3CE00C210DA /* Images.xcassets */,
+				47853FF819BA454B00C210DA /* Sprites.atlas */,
 				47853FBC19B9D3CE00C210DA /* Supporting Files */,
 			);
 			path = "Space Cat";
@@ -138,6 +146,9 @@
 		47853FBC19B9D3CE00C210DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				47853FC719B9D3CE00C210DA /* Main.storyboard */,
+				47853FC419B9D3CE00C210DA /* LAAppDelegate.h */,
+				47853FC519B9D3CE00C210DA /* LAAppDelegate.m */,
 				47853FBD19B9D3CE00C210DA /* Space Cat-Info.plist */,
 				47853FBE19B9D3CE00C210DA /* InfoPlist.strings */,
 				47853FC119B9D3CE00C210DA /* main.m */,
@@ -162,6 +173,39 @@
 				47853FE219B9D3CF00C210DA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47853FF219BA40A200C210DA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				47853FF519BA422500C210DA /* LAGamePlayScene.h */,
+				47853FF619BA422500C210DA /* LAGamePlayScene.m */,
+				47853FEF19BA400100C210DA /* LATitleScene.h */,
+				47853FF019BA400100C210DA /* LATitleScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		47853FFA19BA456700C210DA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				47853FCA19B9D3CE00C210DA /* LAViewController.h */,
+				47853FCB19B9D3CE00C210DA /* LAViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		47B316D519BB91FF00A3A045 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				47B316D919BB992400A3A045 /* LASpaceCatNode.h */,
+				47B316DA19BB992400A3A045 /* LASpaceCatNode.m */,
+				47B316D619BB922D00A3A045 /* LAMachineNode.h */,
+				47B316D719BB922D00A3A045 /* LAMachineNode.m */,
+				47B316DC19BBAD5F00A3A045 /* LAProjectileNode.h */,
+				47B316DD19BBAD5F00A3A045 /* LAProjectileNode.m */,
+			);
+			name = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +256,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = LeetApps;
 				TargetAttributes = {
+					47853FAF19B9D3CE00C210DA = {
+						DevelopmentTeam = Q48PCXNS55;
+					};
 					47853FD719B9D3CF00C210DA = {
 						TestTargetID = 47853FAF19B9D3CE00C210DA;
 					};
@@ -243,7 +290,7 @@
 			files = (
 				47853FC019B9D3CE00C210DA /* InfoPlist.strings in Resources */,
 				47853FD319B9D3CE00C210DA /* Images.xcassets in Resources */,
-				47853FD119B9D3CE00C210DA /* Spaceship.png in Resources */,
+				47853FF919BA454B00C210DA /* Sprites.atlas in Resources */,
 				47853FC919B9D3CE00C210DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47853FF719BA422500C210DA /* LAGamePlayScene.m in Sources */,
+				47B316DE19BBAD5F00A3A045 /* LAProjectileNode.m in Sources */,
 				47853FC219B9D3CE00C210DA /* main.m in Sources */,
 				47853FC619B9D3CE00C210DA /* LAAppDelegate.m in Sources */,
 				47853FCC19B9D3CE00C210DA /* LAViewController.m in Sources */,
-				47853FCF19B9D3CE00C210DA /* LAMyScene.m in Sources */,
+				47B316DB19BB992400A3A045 /* LASpaceCatNode.m in Sources */,
+				47B316D819BB922D00A3A045 /* LAMachineNode.m in Sources */,
+				47853FF119BA400100C210DA /* LATitleScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Space Cat/Space Cat-Prefix.pch";
 				INFOPLIST_FILE = "Space Cat/Space Cat-Info.plist";
@@ -405,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Space Cat/Space Cat-Prefix.pch";
 				INFOPLIST_FILE = "Space Cat/Space Cat-Info.plist";
@@ -473,6 +526,7 @@
 				47853FEB19B9D3CF00C210DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47853FEC19B9D3CF00C210DA /* Build configuration list for PBXNativeTarget "Space CatTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +535,7 @@
 				47853FEE19B9D3CF00C210DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
